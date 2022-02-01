@@ -1,0 +1,65 @@
+**********************************************************************************************************************
+**********************************************************************************************************************
+**********************************************************************************************************************
+
+Author : Riri Jane
+Created : 01.02.2022
+Modified : 01.02.2022
+
+Description :
+File for git commands that I've learned.
+
+Details :
+### - title
+# - comment
+< message > - insert real data
+" message " - insert real data
+
+**********************************************************************************************************************
+**********************************************************************************************************************
+**********************************************************************************************************************
+
+### GLOBAL CREDENTIALS CONFIGURATION 
+# For a certain repository only, omit --global 
+
+# Adding user name
+git config --global user.name "Insert user name here"
+
+# Adding email
+git config --global user.email "Insert email here"
+
+# Check configurations
+git config -l
+
+# Check a certain configuration
+git config <insert variable here>
+
+git config user.name
+
+
+### ADDING A PROJECT IN GIT
+
+# Intialize repository
+git init
+
+# Add remot repository
+git remote add origin <repo-url>
+
+# Add file to local repository
+git add <filename>
+
+# Commit changes 
+git commit -m "Inser commit message here"
+
+# Transfer file from local repository to your github repository
+git push -u origin master
+
+
+### GENERAL COMMANDS
+
+# Add all files 
+git add .
+
+
+
+

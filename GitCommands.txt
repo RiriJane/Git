@@ -60,6 +60,6 @@ git push -u origin master
 # Add all files 
 git add .
 
-
-
+# Clone a repository
+git clone <repo-url>
 

@@ -4,7 +4,7 @@
 
 Author : Riri Jane
 Created : 01.02.2022
-Modified : 01.02.2022
+Modified : 21.08.2023
 
 Description :
 File for git commands that I've learned.
@@ -26,7 +26,7 @@ Details :
 git config --global user.name "Insert user name here"
 
 # Adding email
-git config --global user.email "Insert email here"
+git config --global user.email "Insert01.02.2022 email here"
 
 # Check configurations
 git config -l
@@ -63,3 +63,12 @@ git add .
 # Clone a repository
 git clone <repo-url>
 
+### BRANCHES
+# Create a branch
+git branch <name of new branch>
+
+# Change branch 
+git checkout <name of existing branch>
+
+# Delete a branch
+git branch -d <branch-name>

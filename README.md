@@ -3,7 +3,7 @@ Created : 01.02.2022
 
 Modified : 21.08.2023
 
-All notes from GitCommands.txt was transferred to this markdown page. GitCommands.txt will not be continued.
+All notes from GitCommands.txt were transferred to this markdown page. GitCommands.txt will not be continued.
 
 <h1>Description:</h1>
 File for git commands that I've learned.
